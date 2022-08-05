@@ -27,7 +27,7 @@ size_t	ft_strlen(const char *str)
 
 char	*ft_strchr(const char *s, int c)
 {
-	int i;
+	int	i;
 
 	if (!s)
 		return (0);
@@ -41,13 +41,12 @@ char	*ft_strchr(const char *s, int c)
 			if ((char)c == '\0')
 				return ((char *)s + i);
 			else
-				break;
+				break ;
 		}
 		i++;
 	}
 	return (0);
 }
-
 
 char	*ft_strjoin(char *s1, char *s2)
 {
@@ -58,7 +57,6 @@ char	*ft_strjoin(char *s1, char *s2)
 
 	i = 0;
 	j = 0;
-
 	if (!s1 && !s2)
 		return (0);
 	else if (!s1)
@@ -83,7 +81,7 @@ char	*ft_strdup(char *s1)
 {
 	char	*str;
 	int		len;
-	int i;
+	int		i;
 
 	i = 0;
 	len = ft_strlen(s1);

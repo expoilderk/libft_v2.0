@@ -6,7 +6,7 @@
 /*   By: mreis-me <mreis-me@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/20 12:51:11 by mreis-me          #+#    #+#             */
-/*   Updated: 2022/08/04 18:41:51 by mreis-me         ###   ########.fr       */
+/*   Updated: 2022/08/04 21:41:52 by mreis-me         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,9 @@
 
 char	*ft_itoa_hexa(unsigned long long n, char *base)
 {
-	int			nlen;
+	int					nlen;
 	unsigned long long	nb;
-	char		*str;
+	char				*str;
 
 	nlen = ft_nbrlen_ll(n);
 	nb = n;
